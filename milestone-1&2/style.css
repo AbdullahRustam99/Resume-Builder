@@ -1,0 +1,326 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 1.2px;
+}
+
+/* ++++++++++++++++RESUME++++++++++++++++++ */
+main {
+  background-color: #e8e8f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 160px 50px 160px;
+}
+.Box {
+  padding: 40px;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 17px;
+  width: 800px;
+}
+.Information {
+  border-bottom: 2px solid #000;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.Information .Pic {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Information .Pic h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.Information .Pic h5 {
+  font-weight: 500;
+  font-size: 19px;
+}
+.Information .flex {
+  display: flex;
+
+  gap: 10px;
+}
+.Information .contact {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  background: #000;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding: 40px 0 30px 0;
+  gap: 105px;
+}
+.Work {
+  display: flex;
+  border-bottom: 2px solid #000;
+  padding: 40px 0 30px 0;
+  gap: 45px;
+}
+.work-Ex {
+  display: flex;
+  gap: 10px;
+}
+.work-Ex h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.work-Ex p {
+  font-weight: 800;
+  font-size: 17px;
+  color: #a5a5a5;
+}
+.work-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.education {
+  display: flex;
+  border-bottom: 2px solid #000;
+  padding: 40px 0 30px 0;
+  gap: 65px;
+}
+.education-Ex {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+.education-Ex h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.education-Ex p {
+  font-weight: 800;
+  font-size: 17px;
+  color: #a5a5a5;
+  text-wrap: wrap;
+}
+.education-Ex #p {
+  color: #000;
+  font-weight: 400;
+}
+.edu-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Skill {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #000;
+  padding: 40px 0 30px 0;
+  gap: 100px;
+}
+.skill-ex {
+  display: flex;
+  justify-content: center;
+}
+.Skill ul {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: disc;
+}
+h3 {
+  font-weight: 800;
+  font-size: 20px;
+}
+.Skills #cen,
+.Education #cen,
+.Experience #cen {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 786px) {
+  .Box {
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 17px;
+    width: 640px;
+  }
+
+  education-Ex p {
+    font-weight: 800;
+    font-size: 17px;
+    color: #888888;
+    text-wrap: wrap;
+  }
+  main {
+    background-color: #e8e8f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .Box {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-size: 17px;
+    width: 310px;
+  }
+  .Information {
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+  }
+  .Information .Pic {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Information .Pic h3 {
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .Information .Pic h5 {
+    letter-spacing: 1.7px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+  }
+  .Information .flex {
+    display: flex;
+    gap: 10px;
+    font-size: 21.5px;
+  }
+  .Information .contact {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .contact h3 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .profile-img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background: #000;
+  }
+  .about {
+    display: grid;
+    border-bottom: 2px solid #000;
+    padding: 40px 0 30px 0;
+    gap: 25px;
+  }
+  .about p {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+  }
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .Work {
+    display: grid;
+    border-bottom: 2px solid #000;
+    padding: 40px 0 30px 0;
+    gap: 45px;
+  }
+  .work-Ex {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 15px;
+    align-items: flex-end;
+  }
+  .work-Ex h4 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  .work-Ex p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #7e7e7e;
+    text-wrap: wrap;
+  }
+  .education-Ex p {
+    font-weight: 800;
+    font-size: 17px;
+    color: #888888;
+    text-wrap: wrap;
+  }
+  .education {
+    display: grid;
+    border-bottom: 2px solid #000;
+    padding: 40px 0 30px 0;
+    gap: 35px;
+  }
+  .education-Ex {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+  }
+  .education-Ex h4 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .education-Ex p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #808080;
+    text-wrap: wrap;
+  }
+  .education-Ex #p {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .Skill {
+    display: grid;
+    border-bottom: 2px solid #000;
+    padding: 40px 0 30px 0;
+    gap: 20px;
+    text-wrap: wrap;
+  }
+  .skill-ex {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Skill ul {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: disc;
+  }
+  .Skill li {
+    width: 200px;
+  }
+  main {
+    background-color: #e8e8f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+  }
+}
